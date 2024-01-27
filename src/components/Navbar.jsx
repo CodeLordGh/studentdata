@@ -50,7 +50,7 @@ const Navbar = () => {
           </div>
         </a>
         <Link
-          to="/contactus"
+          to="/contact"
           className="hidden lg:block h-[30px] font-medium overflow-hidden"
         >
           <div className="transform-none hover:translate-y-[-30px] transition-transform">
