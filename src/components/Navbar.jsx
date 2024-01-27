@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Navbar = () => {
   return (
     <nav className="bg-white p-4 border-b-[1px] border-gray-200 flex items-center justify-between relative">
@@ -47,20 +49,19 @@ const Navbar = () => {
             </span>
           </div>
         </a>
-        <a
-          href="#"
-          rel="nofollow"
+        <Link
+          to="/contactus"
           className="hidden lg:block h-[30px] font-medium overflow-hidden"
         >
           <div className="transform-none hover:translate-y-[-30px] transition-transform">
             <span className="flex items-center h-[30px] text-gray-500">
-              Contact
+              Contact Us
             </span>
             <span className="flex items-center h-[30px] text-indigo-600">
-              Contact
+              Contact Us
             </span>
           </div>
-        </a>
+        </Link>
         <a
           href="#"
           rel="nofollow"
